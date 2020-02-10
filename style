@@ -1,0 +1,154 @@
+
+.preloader{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width:100vw;
+    height:100vh;
+    background:#1D1D1D;
+    visibility:hidden;
+    opacity:0;
+    transition:all 0.5s ease;
+    z-index:99999999999999;
+  }
+  .preloader_inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: 300;
+    color: #333;
+  }
+  
+  
+  
+  
+  /* .page{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 4em;
+    line-height: 1em;
+    text-align: center;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 300;
+    color: #4E4E51;
+    visibility:hidden;
+    opacity:0;
+    transition:all 0.5s ease;
+  } */
+  
+  .show{
+    visibility:visible !important;
+    opacity:1 !important;
+    transition:all 0.5s ease;
+  }
+  #square{
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    margin: 10px;
+    position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ 
+  
+  border-radius: 3px;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+    background:rgb(243, 185, 109) !important;
+}
+img{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+    width: 500px;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+.footer {
+  margin-top: 130px;
+  background-color: rgb(243, 185, 109);
+  padding: 10px;
+}
+.topnav{
+  float: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  /* animation-name: moveUp;
+  animation-duration: 10s; */
+}
+#avail{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* animation-name: moveUp;
+  animation-duration: 10s; */
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 200%;
+  text-align: center;
+  /* animation-name: moveUp;
+  animation-duration: 10s; */
+
+}
+/* .jas{
+  animation-name: moveUp;
+  animation-duration: 10s;
+} */
+.heading-main{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+
+  animation-name: moveUp;
+  animation-duration: 5s 
+}
+a{
+  color: black !important
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+@keyframes moveUp {
+  0%{
+    opacity: 0;
+    transform: translateY(-100px)
+  }
+  50%{
+
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+.container{
+  width: 600px;
+  margin: 30px auto;
+  padding: 50px
+
+}

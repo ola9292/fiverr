@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <script src="app.js"></script> -->
+   <style>
+     
+   </style>
+</head>
+<body>
+    <!-- <div class="preloader">
+        <div class="preloader_inner">100%</div>
+      </div> -->
+      
+      <div class="page">
+        <!-- <h1>Thats it, <a href="javascript:void(0)" class="btn">try again</a></h1> -->
+        <h1 style="font-size:6vw;">JASON BRADLEY</h1>
+        <h1 style="font-size:6vw;" >
+            CREATIVE DEVELOPER
+        </h1>
+        <h1 style="font-size:10vw;">AMASTERDAM-NL</h1>
+        
+        
+      </div>
+      <div class="container">
+          <div class="swinger">
+               <img src="pictures/1.jpg" >
+               <img src="pictures/2.jpg" >
+               <img src="pictures/3.jpg" >
+               <img src="pictures/9.jpg" >
+               <img src="pictures/5.png" >
+               <img src="pictures/6.jpg" >
+               <img src="pictures/7.jpg" >
+              
+          </div>
+        </div>
+      <div class="footer">
+        <div >
+        <a href="" id="avail">AVAILABLE FOR FREELANCE</a>
+     
+        <div class="topnav">
+            <a href="#">EMAIL,</a>
+            <a href="https://www.facebook.com/">TWITTER,</a>
+            <a href="www.instagram.com">INSTAGRAM</a>
+          </div>
+        </div> 
+          
+      </div>
+     
+      <!-- <div id="square"></div> -->
+     
+          
+      <!-- <img src="pictures/2.jpg" onmouseover="this.src='pictures/3.jpg'" onmouseout="this.src='pictures/2.jpg'" > -->
+    
+      <script src="jquery.min.js"></script>
+      <script src="swinger.js"></script>
+  <script>
+      $(".swinger").swinger();
+
+
+
+    //   $('.carousel').carousel()
+//      var images = ['pictures/1.jpg', 'pictures/2.jpg', 'pictures/3.jpg'];
+
+// var randomImage = Math.floor(Math.random() * 3)
+
+//  $("#square").hover(function() {
+//      for (let index = 0; index < images.length; index++) {
+//          const element = images[index];
+//          $("#square").css("background-image", "url('" + images[randomImage] + "')");
+//      }
+  
+// })
+//      loader();
+
+// document.querySelector('.btn').onclick = loader;
+
+// /*====================================
+// *     LOADER
+// ======================================*/
+// function loader(_success) {
+//     var obj = document.querySelector('.preloader'),
+//     inner = document.querySelector('.preloader_inner'),
+//     page = document.querySelector('.page');
+//     obj.classList.add('show');
+//     page.classList.remove('show');
+//     var w = 0,
+//         t = setInterval(function() {
+//             w = w + 1;
+//             inner.textContent = w+'%';
+//             if (w === 100){
+//                 obj.classList.remove('show');
+//                 page.classList.add('show');
+//                 clearInterval(t);
+//                 w = 0;
+//                 if (_success){
+//                     return _success();
+//                 }
+//             }
+//         }, 20);
+// };
+
+
+
+  </script>
+  
+</body>
+</html>
